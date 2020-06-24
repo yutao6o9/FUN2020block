@@ -9,6 +9,7 @@ void mousePressed() {
     game_mode = 0;
     score = 0;
     init_monster();
+    init_target();
   }
    //チャージボタン押すと
   if (game_mode == 1 && mouseX >= 450 && mouseY >= 350) {
